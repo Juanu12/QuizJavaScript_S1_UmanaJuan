@@ -1,0 +1,21 @@
+
+@media only screen and (max-width: 431px){
+   body{
+    margin: 0
+   }
+    .Background img {
+        position: fixed;
+        display: flex;
+        width: 140%;
+        height: 50%;
+        border-radius: 36%;
+        margin: -18vw 0vw 0vw -20vw;
+    }
+
+    #Name{
+        position: fixed;
+        display: flex;
+        font-size: 30vw;
+        margin: 18vw 0vw 0vw -20vw;
+    }
+}

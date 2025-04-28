@@ -1,5 +1,5 @@
 
-# Ejercicios Javascript
+# Quiz Javascript
 
 ## Tabla de contenidos
 | Indice | Titulo  |
@@ -21,12 +21,19 @@ Desarrollo de una aplicación movil del clima, para la cual hay que consumir tod
 - La carpeta de fonts, contiene todas las letras que se vana  a importar para el html
   <img width="766" alt="image" src="https://github.com/user-attachments/assets/daa7e6ff-879b-4a60-ae8b-089abb2d0daf" />
 
+
+
 - La carpeta de storage,contiene todas las imagenes que van a ser utilizadas en los archivos
 <img width="761" alt="image" src="https://github.com/user-attachments/assets/e9432c6c-bd96-4098-9056-6e34afdebfad" />
+
+
   
 
 - La carpeta de styles, organiza los elementos, les cambia so forma, color, tipografía, etc
  <img width="767" alt="image" src="https://github.com/user-attachments/assets/c81b4240-8f6c-4260-a37f-857b96d310cc" />
+
+
+
 
 
 - La carpeta scripts contiene , el llamado a la api, fetch, y todas las funciones asincronas que llaman los datos de la api que se van a ir actualizando y los muestra

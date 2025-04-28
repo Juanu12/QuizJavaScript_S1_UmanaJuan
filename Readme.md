@@ -1,5 +1,5 @@
 
-# Ejercicios HTML
+# Ejercicios Javascript
 
 ## Tabla de contenidos
 | Indice | Titulo  |

@@ -11,7 +11,7 @@
         display: flex;
         width: 140%;
         height: 50%;
-        border-radius: 36%;
+        border-radius: 30%;
         margin: -18vw 0vw 0vw -20vw;
     }
 
@@ -38,5 +38,73 @@
         color:  white;
         font-family: "Regular";
         margin: 28vw 0vw 0vw 70vw;
+    }
+    #cloudinfo{
+        position: fixed;
+        display: flex;
+        font-size: 6vw;
+        color:  white;
+        font-family: "Regular";
+        margin: 48vw 0vw 0vw 70vw;
+    }
+    #tempe {
+        position: fixed;
+        display: flex;
+        font-size: 18vw;
+        height: 30vw;
+
+        color: white;
+        font-family: "Regular";
+        margin: 18vw 0vw 0vw 1vw;
+    }
+    #sensation {
+        position: fixed;
+        display: flex;
+        font-size: 3vw;
+        height: 30vw;
+        font-weight: 100;
+        color: white;
+        font-family: "Regular";
+        margin: 49vw 0vw 0vw 40vw;
+    }
+    .Today{
+        position: fixed;
+        display: flex;
+        font-size: 3vw;
+        height: 15vw;
+        font-weight: 100;
+        color: rgb(0, 0, 0);
+        font-family: "Regular";
+        margin: 95vw 0vw 0vw 10vw;
+        border-radius: 50%;
+        background-color: white;
+        text-decoration: none;
+    }
+    .Tomorrow{
+        position: fixed;
+        display: flex;
+        font-size: 3vw;
+        height: 15vw;
+        font-weight: 100;
+        color: rgb(0, 0, 0);
+        font-family: "Regular";
+        margin: 95vw 0vw 0vw 40vw;
+        border-radius: 50%;
+        background-color: white;
+
+    }
+    .days{
+        position: fixed;
+        display: flex;
+        font-size: 3vw;
+        height: 15vw;
+        font-weight: 100;
+        color: rgb(0, 0, 0);
+        font-family: "Regular";
+        margin: 95vw 0vw 0vw 80vw;
+        border-radius: 50%;
+        background-color: white;
+        text-decoration: none;
+border: 0vw solid black;
     }
 }

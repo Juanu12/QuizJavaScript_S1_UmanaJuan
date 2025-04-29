@@ -54,9 +54,25 @@ async function feelslike(){
     }
     async function showsensation(){
     data5 = await llamarapi() 
-    tempdata(data5)
+    feelslike(data5)
     }
-feelslike()
+
+async function Howswind(){
+    let response6 = await fetch (` https://api.weatherapi.com/v1/current.json?key=69ab410e39134867a8d114611252804&q=Floridablanca `)
+    let info6 = await response6.json()
+    let name6 = document.getElementById("Wind")
+    name6.src = info6["current"]["wind_kph"]
+    Wind.innerHTML = `<p>${info6 ["current"] ["wind_kph"]} </p>`;
+            
+    }
+    async function showwind(){
+    data7 = await llamarapi() 
+    Howswind(data7)
+
+    }
+
+showsensation()
 showingtemp()
 showingdta()
 showingcloud()
+showwind()

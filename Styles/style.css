@@ -4,15 +4,17 @@
 }
 @media only screen and (max-width: 431px){
    body{
-    margin: 0
+    margin: 0;
+    background-color: #F6EDFF;
+    overflow: auto;
    }
     .Background img {
         position: fixed;
         display: flex;
-        width: 140%;
-        height: 50%;
-        border-radius: 30%;
-        margin: -18vw 0vw 0vw -20vw;
+        width: 120%;
+        height: 54%;
+        border-radius: 20%;
+        margin: -18vw 0vw 0vw -10vw;
     }
 
     #Name{
@@ -21,7 +23,7 @@
         font-size: 5vw;
         color:  white;
         font-family: "Regular";
-        margin: 1vw 0vw 0vw 3vw;
+        margin: 1vw 0vw 0vw 4vw;
     }
     .search{
         position: fixed;
@@ -52,7 +54,6 @@
         display: flex;
         font-size: 18vw;
         height: 30vw;
-
         color: white;
         font-family: "Regular";
         margin: 18vw 0vw 0vw 1vw;
@@ -67,44 +68,169 @@
         font-family: "Regular";
         margin: 49vw 0vw 0vw 40vw;
     }
-    .Today{
+    .Today button{
         position: fixed;
         display: flex;
         font-size: 3vw;
-        height: 15vw;
-        font-weight: 100;
+        height: 11vw;
+        width: 25vw;
         color: rgb(0, 0, 0);
         font-family: "Regular";
-        margin: 95vw 0vw 0vw 10vw;
-        border-radius: 50%;
+        margin: 105vw 0vw 0vw 38vw;
+        border-radius: 3vw;
         background-color: white;
         text-decoration: none;
-    }
-    .Tomorrow{
-        position: fixed;
-        display: flex;
-        font-size: 3vw;
-        height: 15vw;
-        font-weight: 100;
-        color: rgb(0, 0, 0);
-        font-family: "Regular";
-        margin: 95vw 0vw 0vw 40vw;
-        border-radius: 50%;
-        background-color: white;
+        font-weight: 900;
+        align-items: center;
+        justify-content: center;
+        border: 0vw solid black;
 
     }
-    .days{
+    .Tomorrow button{
         position: fixed;
         display: flex;
         font-size: 3vw;
-        height: 15vw;
-        font-weight: 100;
+        height: 11vw;
+        width: 25vw;
         color: rgb(0, 0, 0);
         font-family: "Regular";
-        margin: 95vw 0vw 0vw 80vw;
-        border-radius: 50%;
+        margin: 105vw 0vw 45vw;
+        margin-left:  5vw;
+        border-radius: 3vw;
+        background-color: white;
+        font-weight: 900;
+        align-items: center;
+        justify-content: center;
+        border: 0vw solid black;
+        
+
+    }
+    .days button{
+        position: fixed;
+        display: flex;
+        font-size: 3vw;
+        height: 11vw;
+        width: 25vw;
+        font-weight: 900;
+        color: rgb(0, 0, 0);
+        font-family: "Regular";
+        margin: 105vw 0vw 0vw 70vw;
+        border-radius: 3vw;
         background-color: white;
         text-decoration: none;
 border: 0vw solid black;
+align-items: center;
+justify-content: center;
     }
+ .cuadro1{
+    position: fixed;
+    display: flex;
+    font-size: 3vw;
+    height: 17vw;
+    width: 40vw;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    font-family: "Regular";
+    margin: 125vw 0vw 0vw 5vw;
+    border-radius: 4vw;
+    background-color: white;
+    text-decoration: none;
+border: 0vw solid black;
+background-color: #d0bcff45;
+
+ }
+ .cuadro2{
+    position: fixed;
+    display: flex;
+    font-size: 3vw;
+    height: 17vw;
+    width: 40vw;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    font-family: "Regular";
+    margin: 125vw 0vw 0vw 50vw;
+    border-radius: 4vw;
+    background-color: white;
+    text-decoration: none;
+border: 0vw solid black;
+background-color: #d0bcff45;
+
+ }
+ .cuadro3{
+    position: fixed;
+    display: flex;
+    font-size: 3vw;
+    height: 17vw;
+    width: 40vw;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    font-family: "Regular";
+    margin: 145vw 0vw 0vw 5vw;
+    border-radius: 4vw;
+    background-color: white;
+    text-decoration: none;
+border: 0vw solid black;
+background-color: #d0bcff45;
+
+ }
+ .cuadro4{
+    position: fixed;
+    display: flex;
+    font-size: 3vw;
+    height: 17vw;
+    width: 40vw;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    font-family: "Regular";
+    margin: 145vw 0vw 0vw 50vw;
+    border-radius: 4vw;
+    background-color: white;
+    text-decoration: none;
+border: 0vw solid black;
+background-color: #d0bcff45;
+ }
+ .imagen1{
+    position: fixed;
+    display: flex;
+    font-size: 3vw;
+    height: 8vw;
+    width: 30vw;
+    font-weight: 900;
+    margin: 130vw 0vw 0vw 7vw;
+ }
+ .imagen2{
+    position: fixed;
+    display: flex;
+    font-size: 3vw;
+    height: 8vw;
+    width: 20vw;
+    font-weight: 900;
+    margin: 130vw 0vw 0vw 52vw;
+ }
+ .imagen3{
+    position: fixed;
+    display: flex;
+    font-size: 3vw;
+    height: 8vw;
+    width: 20vw;
+    font-weight: 900;
+    margin: 149vw 0vw 0vw 6.5vw;
+ }
+ .imagen4{
+    position: fixed;
+    display: flex;
+    font-size: 3vw;
+    height: 8vw;
+    width: 20vw;
+    font-weight: 900;
+    margin: 149vw 0vw 0vw 52vw;
+ }
+.Wind{
+    position: fixed;
+    display: flex;
+    font-size: 60vw;
+    color:  rgb(0, 0, 0);
+    font-family: "Regular";
+    margin: 8vw 0vw 0vw 70vw;
+}
 }

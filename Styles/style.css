@@ -46,8 +46,9 @@
         display: flex;
         font-size: 6vw;
         color:  white;
+        text-align: center;
         font-family: "Regular";
-        margin: 48vw 0vw 0vw 70vw;
+        margin: 48vw 0vw 0vw 61vw;
     }
     #tempe {
         position: fixed;
@@ -225,10 +226,10 @@ background-color: #d0bcff45;
     font-weight: 900;
     margin: 149vw 0vw 0vw 52vw;
  }
-.Wind{
+#Wind{
     position: fixed;
     display: flex;
-    font-size: 60vw;
+    font-size: 6vw;
     color:  rgb(0, 0, 0);
     font-family: "Regular";
     margin: 8vw 0vw 0vw 70vw;

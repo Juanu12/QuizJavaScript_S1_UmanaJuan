@@ -62,8 +62,7 @@ async function Howswind(){
     let info6 = await response6.json()
     let name6 = document.getElementById("Wind")
     name6.src = info6["current"]["wind_kph"]
-    Wind.innerHTML = `<p>${info6 ["current"] ["wind_kph"]} </p>`;
-            
+    Wind.innerHTML = `<p>${info6 ["current"] ["wind_kph"]}Km/h </p>`;
     }
     async function showwind(){
     data7 = await llamarapi() 

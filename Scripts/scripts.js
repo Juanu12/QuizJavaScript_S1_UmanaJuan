@@ -70,8 +70,24 @@ async function Howswind(){
 
     }
 
+
+async function Rainprob(){
+    let response7 = await fetch (` https://api.weatherapi.com/v1/current.json?key=69ab410e39134867a8d114611252804&q=Floridablanca `)
+    let info7 = await response7.json()
+    let name7 = document.getElementById("Rainy")
+    name7.src = info7["current"]["humidity"]
+    Rainy.innerHTML = `<p>${info7 ["current"] ["humidity"]}% </p>`;
+    
+    }
+    async function showRain(){
+    data8 = await llamarapi() 
+    Rainprob(data8)
+
+    }
+
 showsensation()
 showingtemp()
 showingdta()
 showingcloud()
 showwind()
+showRain()
